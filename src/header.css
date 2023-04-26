@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    transition: all 0.45s ease-in-out;
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+header .left{
+    width: 140px;
+}
+header .left img{
+    width: 100%;
+}

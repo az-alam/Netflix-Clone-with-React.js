@@ -1,0 +1,32 @@
+.banner{
+    height: 100vh;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    color: #fff;
+}
+.banner-container{
+    width: 40vw;
+}
+.banner h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.banner-container a{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 1rem;
+    display: inline-block;
+    font-size: 20px;
+}
+.banner-container a:hover{
+    background-color: #fff;
+    color: black;
+}

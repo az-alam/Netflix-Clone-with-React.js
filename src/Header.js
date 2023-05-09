@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from './images/Netflix.jpeg';
+import logo from './images/Netflix1.png';
 import imoji from './images/emoji.jpeg';
 import "./header.css";
 

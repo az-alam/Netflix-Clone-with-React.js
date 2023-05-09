@@ -13,7 +13,7 @@ function Banner() {
             setbanner(result.data.results[Math.floor(Math.random()*result.data.results.length)]);
         }); 
     }, []);
-
+  
   return (
     <div className='banner' style={{backgroundImage:"url("+img_full_path + banner.backdrop_path +")"}}>
         <div className='banner-container'>

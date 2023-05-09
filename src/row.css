@@ -19,7 +19,7 @@
     width: 150px;
     transition: all 1s ease-in-out;
 }
-.row.row.bigger .movies img:hover{
+.row.bigger .movies img:hover{
     transform: scale(1.1);
 }
 .row .movies img{
